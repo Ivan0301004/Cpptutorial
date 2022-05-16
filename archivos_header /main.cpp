@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-//#include "sumar.h"
+#include "sumar.h"
 
 void greet()
 {
@@ -12,8 +12,8 @@ void greet()
 
 int main(){
   std::cout << "Aqui accedemos e imprimos la funcion del archivo header : \n";
-  // std::cout << "LA suma de dos numeros es de : " << sumar(9,8) << '\n';
-  // std::cout << "La division de dos numeros es de : " << divide(9,2) << '\n';
+  std::cout << "LA suma de dos numeros es de : " << sumar(9,8) << '\n';
+  std::cout << "La division de dos numeros es de : " << divide(9,2) << '\n';
   greet();
   
   return 0;
