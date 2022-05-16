@@ -8,3 +8,10 @@ namespace resta
    }
 }
 
+namespace ani{
+   namespace hola{
+      std::string nombre(std::string nombre){
+         return nombre;
+      }
+   }
+}
