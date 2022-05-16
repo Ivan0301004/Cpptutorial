@@ -1,27 +1,19 @@
 #include <iostream>
-#include <string>
 
-int main()
-{
-   std::cout << "Ingresa tu nombre : \U0001F30D";
-   std::string name{};
-   std::getline(std::cin >> std::ws, name);
+int main(){
 
-   std::string greeting = "Hello, " + name + " !";
+   int i{10};
+   int64_t suma{1};
 
-   std::string spaces(greeting.size(), ' ');
-   std::string second = "* " + spaces + " *";
+   do{
 
-   std::string first(second.size(), '*');
+      std::cout << suma << '\n';
+      suma *= i;
+      ++i;
+   }while( i <= 19);
 
-   std::cout << '\n';
-   std::cout << first << '\n';
-   std::cout << second << '\n';
-   std::cout << "* " << greeting << " *" << '\n';
-   std::cout << second << '\n';
-   std::cout << first << '\n';
-   
-   
+
    return 0;
 }
+
 
