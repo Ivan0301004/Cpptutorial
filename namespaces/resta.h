@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+
+
+
 namespace resta
 {
    int hazAlgo(int x, int n);
@@ -18,3 +21,4 @@ namespace ani{
       std::string nombre(std::string nombre);
    }
 }
+

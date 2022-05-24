@@ -1,4 +1,6 @@
 #include "resta.h"
+
+
 namespace resta
 {
 
@@ -17,8 +19,3 @@ namespace ani{
 }
 
 
-namespace mathescue
-{
-   constexpr double e{2.71};
-   constexpr double pi {3.1415902};
-}
