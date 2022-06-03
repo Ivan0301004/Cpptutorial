@@ -1,11 +1,8 @@
-from email.mime import base
-from random import expovariate
-
 
 
 def power(base,expo):
    result = 1
-   count = 0;
+   count = 0
 
    for i in range (0, expo):
       result *= base
