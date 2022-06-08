@@ -3,9 +3,9 @@
 
 int main()
 {
-   std::string word = "Fatima", guess = "";
-   int i = 1;
-   for (i ; i<= 10; ++i){
+   std::string word = "Fatima Rodriguez Carrillo", guess = "";
+   // int i = 1;
+   for (int i=1 ; i<= 10; ++i){
       std::cout<< i << " Word : ";
       std::getline(std::cin>>std::ws, guess);
       if (guess != word){

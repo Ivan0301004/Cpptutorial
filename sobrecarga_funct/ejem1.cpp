@@ -16,7 +16,14 @@ double sumar (int y, double x){
    return y + x;
 }
 
+bool isZero(int num){
+   std::cout<<std::boolalpha;
+   return num <=dd 0;
+}
+
 int main(){
-   std::cout<<sumar(1,3.6)<<'\n';
+   std::cout<< isZero(-1)<<'\n';
+
+   std::cout<< sumar(1,3.6)<<'\n';
    return 0;   
 }
