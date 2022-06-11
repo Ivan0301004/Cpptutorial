@@ -21,7 +21,7 @@ int main()
    float num{};
    std::cin>>num;
    int mayor{(num>=6)? 1:0};
-   if(mayor==1)
+   if(mayor)
       std::cout<<"Aprobado\n";
    else 
       std::cout<<"Reprobado\n";
