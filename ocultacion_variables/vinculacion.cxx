@@ -6,7 +6,7 @@ static int y;      // variable gloabal sin inicializar (0)
 static int u { 1 } // varibale global interna inicializada
 
 const ke{3};       // varibale  constante global interna inicializada
-constexpr ka { 1 } // varaible global interna constexor incializada
+constexpr ka { 1 } // varaible global interna constexpr incializada
 
 static int var(int x, int y); // funcion interna definida
 

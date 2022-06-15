@@ -18,7 +18,7 @@ double sumar (int y, double x){
 
 bool isZero(int num){
    std::cout<<std::boolalpha;
-   return num <=dd 0;
+   return num <= 0;
 }
 
 int main(){
