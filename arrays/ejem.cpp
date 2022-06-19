@@ -7,7 +7,5 @@ int main()
    std::cout << y[5] << '\n';
    
 
-
    return 0;
-
 }

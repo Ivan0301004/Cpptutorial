@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
+
+
 enum DiasSemana
-{
+{;
    Lunes = 0;
    Martes = 1;
    Miercoles = 2;
@@ -16,12 +18,6 @@ enum DiasSemana
 int main()
 {
 
-   int students[25]{1, 2, 3, 4, 5};
-   for (int i = 0; i <= 4; ++i)
-   {
-      int j = j + 1;
-      cout << "student " << j << " : " << students[i] << "\n";
-   }
 
    int nums[5]{};
    nums[1] = 3;
@@ -53,7 +49,7 @@ int main()
       Dias[j] = (DiasSemana)j;
    }
 
-   cout << dias[2] << '\n';
+   cout << Dias[2] << '\n';
 
    return 0;
 }
