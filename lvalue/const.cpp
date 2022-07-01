@@ -9,7 +9,7 @@ int main(){
    int& er{g};
    // si queremos cambiar el valor de la referencia, no se puede ya que es constante
    // *k = 90; al intentar asignarle otro valor a k el compilador se quejara
-   // ? pero si podemos cambiarle el valor a la variabel referida
+   // ? pero si podemos cambiarle el valor a la variable referida
    y = 67;
    std::cout << y << '\n';
    y = 234;

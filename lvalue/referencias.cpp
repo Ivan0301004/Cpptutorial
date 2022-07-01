@@ -16,7 +16,5 @@ int main(){
    c = 90;
    std::cout << c << '\n'; // como  cambiamos el valor de la variable C con una referencia
    // ahora variable C vale 78
-
-}
 return 0;
-
+}
