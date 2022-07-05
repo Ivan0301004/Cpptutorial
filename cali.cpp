@@ -12,7 +12,7 @@ int main()
       std::cout << "============================\n\n";
       std::cout << "\tIngresa 3 calificaciones\n";
       double cali{}, prom{}, sum{};
-      for (int k = 1; k <= 3; ++k)
+      for (int k = 1; k <= 3; ++k )
       {
          std::cout << " Calificacion " << k << " es : ";
          std::cin >> cali;
