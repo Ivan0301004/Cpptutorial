@@ -1,6 +1,6 @@
 #include <iostream>
 
-void addOne(int& y)
+void addOne(int&     y)
 {
    ++y;
 }
