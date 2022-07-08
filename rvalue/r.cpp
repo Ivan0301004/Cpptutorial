@@ -19,10 +19,7 @@ int main(){
    rf = 34; // variable rvalue
    std::cout << rf << '\n';
 
-
-
-
-   
-
    return 0;
 }
+
+
