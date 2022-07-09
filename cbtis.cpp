@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    int n=512, k=4;
-    // cin >> n >> k;
+    int n, k;
+    cin >> n >> k;
     for (int i = 0; i < k; i++){
         if(n % 10 == 0){
             n /= 10;
