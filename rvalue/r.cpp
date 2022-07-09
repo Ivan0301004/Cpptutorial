@@ -4,8 +4,8 @@ int cinco(){
    return 5;
 }
 
-int main(){
-
+int main()
+{ 
    int x{5}; // numero 5 es Rvalue
    const double e{6.7}; // numero 6.7 es rvalue
    std::cout << x << '\n'; // x es lvalue modificable 
@@ -18,6 +18,7 @@ int main(){
    std::cout << rf << '\n';
    rf = 34; // variable rvalue
    std::cout << rf << '\n';
+   
 
    return 0;
 }

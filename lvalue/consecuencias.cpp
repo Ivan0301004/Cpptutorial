@@ -1,6 +1,6 @@
 #include <iostream>
 
-void addOne(int&     y)
+void addOne(int& y)
 {
    ++y;
 }
@@ -10,7 +10,7 @@ void print(const int& u)
    std::cout << u << '\n';
 }
 
-#define isSmall(T) (sizeof(T) <= 2 * sizeof(void*)) // ! Formula para saber que tipo de dato es costoso de pasar por
+#define isSmall(T) (sizeof(T) <= 2 * sizeof(void *)) // ! Formula para saber que tipo de dato es costoso de pasar por
 // ! referencia
 
 struct S

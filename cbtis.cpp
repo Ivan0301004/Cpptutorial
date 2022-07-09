@@ -1,27 +1,18 @@
-#include <iostream>
-// Programa para calcular con punto decimal el promedio de 3 calificaciones de
-// 50 Alumnos
+#include <bits/stdc++.h>
 
-int main()
-{
-    std::cout << "Programa para calcular el promedio de 3 calificaciones de 50 alumnos : \n\n";
+using namespace std;
 
-    for (int i = 1; i <= 50; ++i)
-    {
-        std::cout << "~~~~Alumno " << i << '\n';
-        std::cout << "============================\n\n";
-        std::cout << "\tIngresa 3 calificaciones\n";
-        double cali{}, prom{}, sum{};
-        for (int k = 1; k <= 3; ++k)
-        {
-            std::cout << " Calificacion " << k << " es : ";
-            std::cin >> cali;
-            sum += cali;
+int main(){
+    int n=512, k=4;
+    // cin >> n >> k;
+    for (int i = 0; i < k; i++){
+        if(n % 10 == 0){
+            n /= 10;
+        }else{
+            n--;
         }
-        prom = sum / 3.0;
-        std::cout << "La suma de las tres calificaciones es : " << sum << '\n';
-        std::cout << "=====El promedio es : " << prom << "\n\n";
     }
+    cout << n;
 
     return 0;
 }
