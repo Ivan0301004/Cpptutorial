@@ -1,4 +1,3 @@
-namespace suma
-{
-   int hazAlgo(int x, int n);
+namespace suma {
+int hazAlgo(int x, int n);
 }

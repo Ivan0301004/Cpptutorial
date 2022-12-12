@@ -2,13 +2,12 @@
 
 extern int y_e;
 extern const int nuevo;
-// extern constexpr int newe; 
+// extern constexpr int newe;
 
-int main()
-{  
-   std::cout << y_e << '\n';
-   std::cout << nuevo << '\n';
-   std::cout << newe << '\n';
+int main() {
+  std::cout << y_e << '\n';
+  std::cout << nuevo << '\n';
+  std::cout << newe << '\n';
 
-   return 0;
+  return 0;
 }

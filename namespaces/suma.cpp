@@ -1,10 +1,6 @@
 #include "suma.h"
 
-namespace suma
-{
+namespace suma {
 
-   int hazAlgo(int x, int n)
-   {
-      return x + n;
-   }
-}
+int hazAlgo(int x, int n) { return x + n; }
+} // namespace suma

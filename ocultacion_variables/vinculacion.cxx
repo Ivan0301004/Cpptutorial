@@ -10,16 +10,11 @@ constexpr ka { 1 } // varaible global interna constexpr incializada
 
 static int var(int x, int y); // funcion interna definida
 
-
 // ! FUNCION MAIN
 
-int main()
-{
+int main() {
 
-   std::cout << "variable interna : " << var(10, 3) << '\n';
+  std::cout << "variable interna : " << var(10, 3) << '\n';
 
-   return 0;
+  return 0;
 }
-
-
-
